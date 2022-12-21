@@ -39,7 +39,7 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
-          context: ./api_yamdb
+          context: ./infra_project
           push: true
           tags: sureyoucan/task1:latest
   deploy:
